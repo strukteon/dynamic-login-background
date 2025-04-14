@@ -1,0 +1,21 @@
+{
+    "name": "strukteon/dynamic-login-background",
+    "description": "load backend login background image dynamically",
+    "type": "typo3-cms-extension",
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "require": {
+        "typo3/cms-core": "^12.4 || ^13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Strukteon\\DynamicLoginBackground\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "dynamic_login_background"
+        }
+    }
+}

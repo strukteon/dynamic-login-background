@@ -1,0 +1,6 @@
+###################
+### LOGINSCREEN ###
+###################
+
+# cat=Login; type=string; label=LLL:EXT:backend/Resources/Private/Language/locallang.xlf:config.loginBackgroundImage
+loginBackgroundImageFolder = EXT:dynamic_login_background/Resources/Public/BackgroundImages/
