@@ -5,8 +5,3 @@ services:
     public: false
   Strukteon\DynamicLoginBackground\:
     resource: '../Classes/*'
-    exclude: '../Classes/Domain/Model/*'
-  Strukteon\DynamicLoginBackground\Backend\EventListener\BackendLoginHook:
-    tags:
-      - name: event.listener
-        identifier: 'dynamic-login-background/backend/after-backend-page-render'
